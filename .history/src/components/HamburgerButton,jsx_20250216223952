@@ -1,0 +1,36 @@
+import React from "react";
+import PropTypes from "prop-types";
+
+const HamburgerButton = ({ isOpen, onClick }) => (
+  <button
+    type="button"
+    className="md:hidden text-[#5e4031] focus:outline-none shadow-md p-2"
+    onClick={onClick}
+    aria-expanded={isOpen}
+    aria-label={isOpen ? "Fechar menu" : "Abrir menu"}
+  >
+    <svg
+      className="w-6 h-6"
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      role="img"
+      aria-hidden="true"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d={!isOpen ? "M4 6h16M4 12h16M4 18h16" : "M6 18L18 6M6 6l12 12"}
+      />
+    </svg>
+  </button>
+);
+
+HamburgerButton.propTypes = {
+  isOpen: PropTypes.bool.isRequired,
+  onClick: PropTypes.func.isRequired,
+};
+
+export default HamburgerButton;
