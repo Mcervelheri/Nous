@@ -11,13 +11,13 @@ import "swiper/css/pagination";
 
 const ProfessionalsList = () => {
   return (
-    <div>
+    <div className="px-2">
       <div className="hidden lg:grid lg:grid-cols-3 gap-8">
         {professionalsData.map((professional, index) => (
           <Professional key={index} {...professional} />
         ))}
       </div>
-      <div className="lg:hidden">
+      <div className="lg:hidden mx-1">
         <div className="relative w-full flex justify-center items-center">
           <button className="custom-prev absolute left-2 z-10 bg-[#5e4031] text-white w-8 h-8 flex items-center justify-center rounded-full transition-all duration-300 hover:bg-[#3c2a20]">
             &#10094;
