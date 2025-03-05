@@ -28,7 +28,7 @@ const professionalsData = [
     text1:
       "A psicologia foi um divisor de águas na minha vida. Sempre me fascinou entender o funcionamento humano, mas foi ao acolher pessoas que me apaixonei pela profissão. Meu papel vai além de ouvir; através da Terapia Cognitivo-Comportamental (TCC), busco ajudar você a enfrentar desafios com mais consciência, segurança e ferramentas práticas.",
     text2:
-      "Acredito que o cuidado psicológico promove mudanças genuínas, ajudando você a alcançar uma vida mais leve, equilibrada e alinhada aos seus valores e objetivos.",
+      "Acredito que o cuidado psicológico é único e transformador, capaz de promover mudanças genuínas na forma como nos relacionamos conosco e com o mundo ao nosso redor. Juntos, podemos trabalhar para que você alcance uma vida mais leve, equilibrada e alinhada aos seus valores e objetivos.",
   },
 ];
 
