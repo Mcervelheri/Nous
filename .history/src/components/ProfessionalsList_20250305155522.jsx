@@ -25,7 +25,7 @@ const ProfessionalsList = () => {
 
           <Swiper
             style={{
-              "--swiper-pagination-color": "#5e4031",
+              "--swiper-pagination-color": "#FFBA08",
               "--swiper-pagination-bullet-inactive-color": "#999999",
             }}
             modules={[Navigation, Pagination, Autoplay]}

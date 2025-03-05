@@ -24,15 +24,9 @@ const ProfessionalsList = () => {
           </button>
 
           <Swiper
-            style={{
-              "--swiper-pagination-color": "#5e4031",
-              "--swiper-pagination-bullet-inactive-color": "#999999",
-            }}
             modules={[Navigation, Pagination, Autoplay]}
-            autoHeight={true}
             spaceBetween={16}
             slidesPerView={1}
-            loop={true}
             pagination={{ clickable: true }}
             autoplay={{ delay: 3000, disableOnInteraction: true }}
             navigation={{ prevEl: ".custom-prev", nextEl: ".custom-next" }}

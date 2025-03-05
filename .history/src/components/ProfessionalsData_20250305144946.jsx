@@ -10,7 +10,7 @@ const professionalsData = [
     text1:
       "Como profissional da saúde mental, meu propósito é ajudar você a superar desafios emocionais e alcançar uma vida mais equilibrada. Trabalho com a Terapia Cognitivo-Comportamental (TCC), focando no autoconhecimento e na construção de estratégias eficazes.",
     text2:
-      "A autoestima sempre foi algo que mexia comigo, e hoje meu objetivo é te ajudar a encontrar sua melhor versão, para cultivar boas relações e viver com mais bem-estar. Estou aqui para te apoiar nesse caminho de mudança e crescimento pessoal.",
+      "Se você busca autoconhecimento e autocuidado, estou aqui para te acompanhar nesse processo de transformação. Juntos, podemos construir estratégias para lidar com suas questões.",
   },
   {
     img: tatianeImg,

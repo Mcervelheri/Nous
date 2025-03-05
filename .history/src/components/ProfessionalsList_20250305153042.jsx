@@ -19,20 +19,15 @@ const ProfessionalsList = () => {
       </div>
       <div className="lg:hidden mx-8">
         <div className="relative w-full flex justify-center items-center">
+          {/* Setas personalizadas FORA do Swiper */}
           <button className="custom-prev absolute left-2 z-10 bg-[#5e4031] text-white w-8 h-8 flex items-center justify-center rounded-full transition-all duration-300 hover:bg-[#3c2a20]">
-            &#10094;
+            &#10094; {/* Código do ícone de seta para a esquerda */}
           </button>
 
           <Swiper
-            style={{
-              "--swiper-pagination-color": "#5e4031",
-              "--swiper-pagination-bullet-inactive-color": "#999999",
-            }}
             modules={[Navigation, Pagination, Autoplay]}
-            autoHeight={true}
             spaceBetween={16}
             slidesPerView={1}
-            loop={true}
             pagination={{ clickable: true }}
             autoplay={{ delay: 3000, disableOnInteraction: true }}
             navigation={{ prevEl: ".custom-prev", nextEl: ".custom-next" }}
@@ -46,7 +41,7 @@ const ProfessionalsList = () => {
           </Swiper>
 
           <button className="custom-next absolute right-2 z-10 bg-[#5e4031] text-white w-8 h-8 flex items-center justify-center rounded-full transition-all duration-300 hover:bg-[#3c2a20]">
-            &#10095;
+            &#10095; {/* Código do ícone de seta para a direita */}
           </button>
         </div>
       </div>

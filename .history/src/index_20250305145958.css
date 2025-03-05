@@ -74,11 +74,6 @@ code {
   width: 100%;
 }
 
-.swiper-button-next,
-.swiper-button-prev {
-  background: bg-[#bb947e];
-}
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
