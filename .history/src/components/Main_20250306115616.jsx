@@ -10,9 +10,9 @@ const Main = () => {
     <>
       <Home />
       <About />
-      <Essence type="Informations" />
+      <Essence type:Informations />
       <Professionals />
-      <Essence type="Essence" />
+      <Essence type:Essence />
     </>
   );
 };

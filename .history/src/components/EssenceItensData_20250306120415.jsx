@@ -1,6 +1,6 @@
 import React from "react";
 
-export const EssenceItensData = [
+const EssenceItensData = [
   {
     item: "Missão",
     text: "Oferecer cuidado psicológico de excelência, promovendo o autoconhecimento, a saúde emocional e o bem-estar dos nossos clientes.",
@@ -15,17 +15,19 @@ export const EssenceItensData = [
   },
 ];
 
-export const InformationItensData = [
+const InformationItensData = [
   {
-    item: "Horários",
+    title: "Horários",
     text: `Segunda-feira à sexta 08:00 às 20:00/nSábado das 08:00 às 12:00"`,
   },
   {
-    item: "Horários",
+    title: "Horários",
     text: `Segunda-feira à sexta 08:00 às 20:00/nSábado das 08:00 às 12:00"`,
   },
   {
-    item: "Horários",
+    title: "Horários",
     text: `Segunda-feira à sexta 08:00 às 20:00/nSábado das 08:00 às 12:00"`,
-  },
+  }
 ];
+
+export default EssenceItensData, InformationItensData;

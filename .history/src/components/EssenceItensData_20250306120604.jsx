@@ -17,15 +17,15 @@ export const EssenceItensData = [
 
 export const InformationItensData = [
   {
-    item: "Horários",
+    title: "Horários",
     text: `Segunda-feira à sexta 08:00 às 20:00/nSábado das 08:00 às 12:00"`,
   },
   {
-    item: "Horários",
+    title: "Horários",
     text: `Segunda-feira à sexta 08:00 às 20:00/nSábado das 08:00 às 12:00"`,
   },
   {
-    item: "Horários",
+    title: "Horários",
     text: `Segunda-feira à sexta 08:00 às 20:00/nSábado das 08:00 às 12:00"`,
   },
 ];

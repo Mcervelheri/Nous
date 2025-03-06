@@ -2,12 +2,10 @@ import React from "react";
 import EssenceItem from "./EssenceItem";
 import { EssenceItensData, InformationItensData } from "./EssenceItensData";
 
-const EssenceList = ({ type }) => {
-  const data = type === "Essence" ? EssenceItensData : InformationItensData;
-
+const EssenceList = (type) => {
   return (
     <>
-      {data.map((item, index) => (
+      {EssenceItensData.map((item, index) => (
         <EssenceItem key={index} {...item} />
       ))}
     </>

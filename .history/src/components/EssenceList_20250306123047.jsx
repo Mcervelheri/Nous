@@ -2,8 +2,10 @@ import React from "react";
 import EssenceItem from "./EssenceItem";
 import { EssenceItensData, InformationItensData } from "./EssenceItensData";
 
-const EssenceList = ({ type }) => {
-  const data = type === "Essence" ? EssenceItensData : InformationItensData;
+const EssenceList = (type) => {
+  console.log("Type recebido no EssenceList:", type);
+  const data =
+    type.type === "Essence" ? EssenceItensData : InformationItensData;
 
   return (
     <>
