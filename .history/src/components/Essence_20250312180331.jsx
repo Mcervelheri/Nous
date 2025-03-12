@@ -4,7 +4,7 @@ import EssenceList from "./EssenceList";
 const Mission = ({ type }) => {
   return (
     <div
-      id={type === "Essence" ? "missao" : ""}
+      id="{type === 'Essence' ? 'missao' : ''}"
       className="py-6 relative bg-[#f3f1ed] z-20"
     >
       <div className="container mx-auto text-center ">

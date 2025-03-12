@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import NavLink from "./NavLink";
 
 const NavLinks = ({ isOpen }) => {
