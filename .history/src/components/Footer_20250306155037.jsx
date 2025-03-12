@@ -1,3 +1,4 @@
+import React from "react";
 import FooterLinksList from "./FooterLinksList";
 import Map from "./Map";
 import CopyWrite from "./CopyWrite";
@@ -14,8 +15,7 @@ const Footer = () => {
           <FooterLinksList />
           <div className="transition-transform duration-300 hover:scale-105">
             <a
-              href="https://w.app/nous"
-              target="_blank"
+              href="/formulario"
               className="bg-[#bb947e] text-white px-6 py-3 rounded-lg hover:bg-[#c79165] "
             >
               Agende sua sessão

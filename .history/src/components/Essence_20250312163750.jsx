@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import EssenceList from "./EssenceList";
 
 const Mission = ({ type }) => {

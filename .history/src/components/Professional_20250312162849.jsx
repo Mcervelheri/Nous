@@ -1,4 +1,5 @@
-/* eslint-disable react/prop-types */
+import React from "react";
+
 const Professional = ({ img, name, crp, text1, text2 }) => {
   return (
     <div className="bg-white shadow-[#5e4031] shadow-lg rounded-lg p-6 h-full w-full transition-transform duration-300 lg:hover:scale-105">

@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 const NavLogo = ({ logoSrc, alt }) => (
   <div className="transition-transform duration-300 hover:scale-105">
     <a href="#inicio">

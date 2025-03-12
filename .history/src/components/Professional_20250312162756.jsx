@@ -1,4 +1,5 @@
-/* eslint-disable react/prop-types */
+import React from "react";
+
 const Professional = ({ img, name, crp, text1, text2 }) => {
   return (
     <div className="bg-white shadow-[#5e4031] shadow-lg rounded-lg p-6 h-full w-full transition-transform duration-300 lg:hover:scale-105">
@@ -19,11 +20,7 @@ const Professional = ({ img, name, crp, text1, text2 }) => {
         <br />
         {text2}
       </p>
-      <a
-        href="https://w.app/nous"
-        target="_blank"
-        className="text-[#5e4031] hover:underline"
-      >
+      <a href="https://w.app/nous" className="text-[#5e4031] hover:underline">
         Agende sua sessão
       </a>
     </div>

@@ -1,3 +1,4 @@
+import React from "react";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
 import logo from "/src/assets/logos/PerfilWhatsApp.png";
 
