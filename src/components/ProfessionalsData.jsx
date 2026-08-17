@@ -1,5 +1,5 @@
 import stefanyImg from "/src/assets/professionals/Stefany.jpg";
-import tatianeImg from "/src/assets/professionals/Tatiane.jpg";
+import andressaImg from "/src/assets/professionals/Andressa.jpg";
 import ketholyImg from "/src/assets/professionals/Ketholy.jpg";
 
 const professionalsData = [
@@ -13,15 +13,6 @@ const professionalsData = [
       "A autoestima sempre foi algo que mexia comigo, e hoje meu objetivo é te ajudar a encontrar sua melhor versão, para cultivar boas relações e viver com mais bem-estar. Estou aqui para te apoiar nesse caminho de mudança e crescimento pessoal.",
   },
   {
-    img: tatianeImg,
-    name: "Tatiane Moreira",
-    crp: "CRP: 08/39651",
-    text1:
-      "Sempre acreditei que cada pessoa tem sua própria história e desafios, e meu propósito como psicóloga é acolher essas singularidades com empatia e cuidado. Atendo crianças, adolescentes e adultos utilizando a Terapia Cognitivo-Comportamental (TCC), uma abordagem prática e eficaz para promover mudanças positivas.",
-    text2:
-      "Sou apaixonada pela minha profissão e acredito no poder do autoconhecimento para transformar vidas. Estou aqui para caminhar ao seu lado em direção a uma vida mais equilibrada e significativa.",
-  },
-  {
     img: ketholyImg,
     name: "Kétholy Cervelheri",
     crp: "CRP: 08/38408",
@@ -30,6 +21,16 @@ const professionalsData = [
     text2:
       "Acredito que o cuidado psicológico promove mudanças genuínas, ajudando você a alcançar uma vida mais leve, equilibrada e alinhada aos seus valores e objetivos.",
   },
+  {
+    img: andressaImg,
+    name: "Andressa Gonçalves Moreira",
+    crp: "CRP: 08/31803",
+    text1:
+      "Atua na psicologia clínica pela Terapia Cognitivo-Comportamental (TCC), com especial atenção ao atendimento de crianças e adolescentes. Acredito que cada criança tem seu próprio jeito de sentir, aprender e se desenvolver, e que o processo terapêutico precisa respeitar essa individualidade.",
+    text2:
+      "Meu propósito é construir, junto com cada paciente e sua família, um espaço onde seja possível falar, brincar, compreender emoções, desenvolver habilidades e encontrar novos caminhos.  Porque, quando confiam a mim aquilo que têm de mais precioso, eu cuido como gostaria que cuidassem dos meus.",
+  },
+
 ];
 
 export default professionalsData;
