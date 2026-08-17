@@ -20,7 +20,7 @@ const Professional = ({ img, name, crp, text1, text2 }) => {
         {text2}
       </p>
       <a
-        href="https://w.app/nous"
+        href="https://wa.me/554498379833"
         target="_blank"
         className="text-[#5e4031] hover:underline"
       >

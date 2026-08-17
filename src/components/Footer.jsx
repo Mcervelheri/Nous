@@ -14,7 +14,7 @@ const Footer = () => {
           <FooterLinksList />
           <div className="transition-transform duration-300 hover:scale-105">
             <a
-              href="https://w.app/nous"
+              href="https://wa.me/554498379833"
               target="_blank"
               className="bg-[#bb947e] text-white px-6 py-3 rounded-lg hover:bg-[#c79165] "
             >
