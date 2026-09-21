@@ -1,6 +1,5 @@
 import FooterLinksList from "./FooterLinksList";
 import Map from "./Map";
-import CopyWrite from "./CopyWrite";
 
 const Footer = () => {
   return (
@@ -24,7 +23,6 @@ const Footer = () => {
         </div>
         <Map />
       </div>
-      <CopyWrite />
     </footer>
   );
 };
