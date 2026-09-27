@@ -7,7 +7,6 @@ const NavLinks = ({ isOpen }) => {
     { href: "#sobre", label: "Sobre" },
     { href: "#profissionais", label: "Profissionais" },
     { href: "#missao", label: "Missão" },
-    { href: "#contato", label: "Agende", isButton: true },
   ];
 
   return (
@@ -23,12 +22,22 @@ const NavLinks = ({ isOpen }) => {
     `}
     >
       {links.map((link) => (
-        <NavLink key={link.href} href={link.href} isButton={link.isButton}>
+        <NavLink key={link.href} href={link.href}>
           {link.label}
         </NavLink>
       ))}
+      <a
+        href="https://wa.me/554498379833"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block mx-4 my-2 md:my-0 bg-[#5e4031] text-white px-5 py-2 rounded-full text-sm font-medium
+                   hover:bg-[#4a3328] transition-all duration-300 hover:scale-105 hover:shadow-md text-center"
+      >
+        Agendar Consulta
+      </a>
     </div>
   );
 };
 
 export default NavLinks;
+
